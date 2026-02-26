@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yoriDAY cafe</title>
+    <meta name="description" content="yoriDAYは、がんばるあなたがホッと一息つけるカフェです。">
+    <!-- //OGP -->
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="yoriDAY cafe">
+    <meta property="og:title" content="yoriDAY cafe">
+    <meta property="og:description" content="yoriDAYは、がんばるあなたがホッと一息つけるカフェです。">
+    <!-- ****** アドレスができてから-->
+    <meta property="og:url" content="https://www.example.com/">
+
+    <!-- サムネイル（絶対URL / https 推奨 / 2MB以下目安） -->
+    <!-- 推奨メイン：1200x630（横長） -->
+    <meta property="og:image" content="https://www.example.com/ogp/ogp-1200x630.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="サービスを象徴するビジュアルの代替テキスト">
+
+    <!-- 追加の代替サイズ（任意・あると安定） -->
+    <meta property="og:image" content="https://www.example.com/ogp/ogp-600x315.jpg">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="315">
+
+    <!-- 多言語サイトなら（任意） -->
+    <!-- <meta property="og:locale:alternate" content="en_US"> -->
+
+    <!-- X(Twitter) 用：最低限 card 種類。site は推奨 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@YOUR_OFFICIAL_ACCOUNT">
+    <!-- 任意（og:* が参照されるため省略可だが、指定するとより安定） -->
+    <meta name="twitter:title" content="yoriDAY cafe">
+    <meta name="twitter:description" content="yoriDAYは、がんばるあなたがホッと一息つけるカフェです。">
+    <meta name="twitter:image" content="https://www.example.com/ogp/ogp-1200x630.jpg">
+    <meta name="twitter:image:alt" content="サービスを象徴するビジュアルの代替テキスト">
+    <!-- 担当者アカウントを出したい場合（任意） -->
+    <!-- <meta name="twitter:creator" content="@YOUR_STAFF_ACCOUNT"> -->
+
+    <!-- Facebook解析や権限管理が必要な場合のみ（任意） -->
+    <!-- <meta property="fb:app_id" content="1234567890"> -->
+    <!-- <meta property="fb:admins" content="FACEBOOK_USER_ID"> -->
+
+    <!-- 共有時のクローラー制御は通常不要。検索用 robots は必要に応じて -->
+    <!--自分で記載********* //"no"とコンテンツのindexと ***********-->
+    <meta name="robots" content="noindex,nofollow">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <script src="js/drawerMenu.js" defer></script>
+</head>
+
+<body>
+
+    <!-- //授業内容(固定配置 positionについて)
+    // ---------------------------------- -->
+    <!-- <div class="fixed">固定配置</div>
+    <div class="margin">余白</div> -->
+    <!-- // ----------------------------- -->
+
+    <!-- //ハンバーガーメニュー -->
+    <!-- ドロワーボタン -->
+    <button class="drawerButton">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+
+    <header>
+        <nav id="drawerMenu">
+            <div class="drawer">
+                <ul>
+                    <li><a href="#CONCEPT">コンセプト</a></li>
+                    <li><a href="#MENU">メニュー</a></li>
+                    <li><a href="#INFORMATION">店舗情報</a></li>
+                    <li><a href="#Map">アクセス</a></li>
+                    <!-- //アクセスはマップでいいのか？ -->
+                </ul>
+            </div>
+
+            <div class="SNS">
+                <p>SNS</p>
+                <ul>
+                    <li><a href="#"><img src="images/icon/Group.png" alt="instagramのアイコン"></a></li>
+                    <li><a href="#"><img src="images/icon/twitter.png" alt="twitterのアイコン"></a></li>
+                    <li><a href="#"><img src="images/icon/Vector.png" alt="facebookのアイコン"></a></li>
+                </ul>
+            </div>
+        </nav> 
+    </header>
+
+    <!-- //メイン TOP画像 -->
+    <div id="mainContents">
+            <div class="leftCntents"></div>
+            <div class="rightContents"></div>
+        </div>
+    
+
+
+    <main>
+        <section id="CONCEPT">
+            <h2>CONCEPT</h2>
+            <p class="sub">- コンセプト -</p>
+
+            <div class="concept-p">
+                <p>忙しい毎日の途中に、<br>
+                    ふと“寄り道”したくなる場所。</p>
+                <P>yoriDAYは、<br>
+                    がんばるあなたがホッと一息つけるカフェです。<br>
+                    コーヒーの香りに包まれて、<br>
+                    少しだけ肩の力を抜く時間。</P>
+                <P> 何気ない一日が、<br>
+                    少しだけ「より良い一日」になりますように。</p>
+            </div>
+
+            <img src="images/SP_images/consept_SP.png" alt="テーブルの上のコーヒー">
+        </section>
+
+        <section id="MENU">
+            <h2>MENU</h2>
+            <p class="sub">- メニュー -</p>
+
+            <div class="Menu-item">
+                <div>
+                    <img src="images/SP_images/coffee_SP.png" alt="コーヒーの画像">
+                    <h3>コーヒー</h3>
+                    <p>ホット/¥400</p>
+                    <p>アイス/¥450</p>
+                </div>
+                
+                <div>
+                    <img src="images/SP_images/cafe latte_SP.png" alt="カフェラテの画像">
+                    <h3>カフェラテ</h3>
+                    <p>ホット/¥450</p>
+                    <p>アイス/¥500</p>
+                </div>
+                <div>
+                    <img src="images/SP_images/Matcha latte_SP.png" alt="抹茶ラテの画像">
+                    <h3>抹茶ラテ</h3>
+                    <p>ホット/¥450</p>
+                    <p>アイス/¥500</p>
+                </div>
+                <div>
+                    <img src="images/SP_images/tea_SP.png" alt="紅茶の画像">
+                    <h3>紅茶</h3>
+                    <p>ホット/¥450</p>
+                    <p>アイス/¥500</p>
+                </div>
+                <div>
+                    <img src="images/SP_images/cocoa_SP.png" alt="ココアの画像">
+                    <h3>ココア</h3>
+                    <p>ホット/¥500</p>
+                    <p>アイス/¥550</p>
+                </div>
+                <div>
+                    <img src="images/SP_images/orange_SP.png" alt="オレンジジュースの画像">
+                    <h3>オレンジジュース</h3>
+                    <p>¥600</p>
+                </div>
+                <div>
+                    <img src="images/SP_images/potato_SP.png" alt="フライドポテトの画像">
+                    <h3>フライドポテト</h3>
+                    <p>¥600</p>
+                </div>
+                <div>
+                    <img src="images/SP_images/cake_SP.png" alt="チーズケーキの画像">
+                    <h3>チーズケーキ</h3>
+                    <p>アイス/¥500</p>
+                </div>
+                <div>
+                    <img src="images/SP_images/One-Plate_SP.png" alt="日替わりワンプレートの画像">
+                    <h3>日替わりワンプレート</h3>
+                    <p>¥950</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="INFORMATION">
+            <h2>INFORMATION</h2>
+            <p class="sub">- 店舗情報 -</p>
+
+            <img src="images/SP_images/shop_SP.png" alt="外観の画像">
+
+            <div class="info-list">
+                <dl>
+                    <dt>店名</dt>
+                    <dd>yoriDAY</dd>
+                </dl>
+                <dl>
+                    <dt>電話番号</dt>
+                    <dd>078-325-xxxx</dd>
+                </dl>
+                <dl>
+                    <dt>住所</dt>
+                    <dd>〒650-0023<br>
+                        兵庫県神戸市中央区栄町通3-7-12<br>
+                        yoriDAYビル 1F</dd>
+                </dl>
+                <dl>
+                    <dt>最寄駅</dt>
+                    <dd>JR・阪神「元町駅」より徒歩5分</dd>
+                </dl>
+
+                <div class="info-half">
+                    <dl class="info-left">
+                        <dt>営業時間</dt>
+                        <dd>11：00〜19:00</dd>
+                    </dl>
+                    <dl>
+                        <dt>定休日</dt>
+                        <dd>火曜日</dd>
+                    </dl>
+                </div>
+
+                <dl>
+                    <dt>総座席数</dt>
+                    <dd>15席<br>
+                        (カウンター7席、テーブル8席)</dd>
+                </dl>
+                <dl>
+                    <dt>個室</dt>
+                    <dd>有（4人可）※半個室</dd>
+                </dl>
+                <dl>
+                    <dt>支払い方法</dt>
+                    <dd>カード可<br>
+                        （VISA、Master、JCB、AMEX）<br>
+                        電子マネー可<br>
+                        QRコード決済可</dd>
+                </dl>
+            </div>
+
+            <!-- //googleマップ -->
+            <div id="Map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1556.6840570752158!2d135.18389634925796!3d34.686608161649964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60008f02f9ac0001%3A0x69d80e8cf90ac138!2z44CSNjUwLTAwMjMg5YW15bqr55yM56We5oi45biC5Lit5aSu5Yy65qCE55S66YCa77yT5LiB55uu77yW4oiS77yR77yZIDLpmo4!5e0!3m2!1sja!2sjp!4v1771515512221!5m2!1sja!2sjp" width="355" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><small>&copy;yoriDAY cafe</small></p>
+    </footer>
+</body>
+
+</html>
