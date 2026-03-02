@@ -471,6 +471,10 @@ body {
   padding: 120px 20px 20px 20px;
 }
 
+.drawer ul li a {
+  color: #F7F4EF;
+}
+
 .SNS {
   display: flex;
   flex-direction: column;
